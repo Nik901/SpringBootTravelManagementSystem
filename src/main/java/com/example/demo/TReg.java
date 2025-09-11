@@ -38,13 +38,33 @@ public class TReg {
         this.sirname=sirname;
         
     }
-  
+    TReg(String emailid, String Namne, String password){
+          this. emailid=emailid;
+        this.password1=password;
+        this.name1=name1;
 
-    void ShowData(){
-        
+    }
+  
+   public void setName1(String name1){
+        this.name1=name1;
+    
     }
 
- 
+   public String getName1(){
+        return this.name1;
+    }
+
+    public void setSirname(String sirname){
+        this.sirname=sirname;
+    
+    }
+
+   public String getSirname(){
+        return this.sirname;
+    }
+
+
+    
    
      
 }
